@@ -1,0 +1,90 @@
+*{
+    /* color: rgb(255, 255, 255); */
+}
+body{
+    background-color: #454545;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+p{
+    color: white;
+}
+.test-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#questions{
+    background-color: red;
+    width: 100px;
+    height: 20px: 
+    
+}
+#start-card{
+    
+    background-color: blueviolet;
+    box-shadow: inset 0px 0px 10px 1px #ffffff97;
+    border-radius: 10px;
+}
+#begin-card{
+    display: none;
+    background-color: blueviolet;
+    box-shadow: inset 0px 0px 10px 1px #ffffff97;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#end-card{
+    display: none;
+    background-color: blueviolet;
+    box-shadow: inset 0px 0px 10px 1px #ffffff97;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#leader-card{
+   
+    background-color: blueviolet;
+    box-shadow: inset 0px 0px 10px 1px #ffffff97;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#options{
+    display: flex;
+    flex-direction: column;
+}
+#start{
+    margin-inline:50%;
+   
+    margin-bottom: 10px;
+}
+button{
+    background-color: #454545;
+    color: white;
+    box-shadow: inset 0px 0px 10px 1px #000000c2;
+    border-radius: 0px;
+}
+button:hover{
+    background-color: #454545;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 10px 1px #c9c9c9c2;
+    border-radius: 0px;
+}
+.feedback{
+    background-color: #00000000;
+    
+
+
+}
+.hide{
+    display: none;
+}

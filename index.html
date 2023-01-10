@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <a href="./assets/leaderboard.html"><button  id="leaderboard">leaderboard</button></a>
+        <p id=timer>timer<span id="seconds">75</span></p>
+    </header>
+    
+    <main class="test-container">
+        <div id="start-card">
+            <h1>javascript quiz</h1>
+            <p>Answer questions correctly before the time runs out. Wrong answers will subtract from the score and time!</p>
+            <button id="start">Start</button>
+        </div>
+        
+        <div id="begin-card">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div id="feedback"></div>
+        </div>
+       <div id="end-card">
+        <h2 id="correctAmmount"></h2>
+        <label>please give your initials and hit save to add your score to the leaderboard!</label>
+        <input id="name">
+        <button id="submit">submit</button>
+       </div>
+
+        
+        
+
+
+    </main>
+    
+    
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
